@@ -1,0 +1,9 @@
+Script started on 2024-10-30 11:01:33+02:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="156" LINES="41"]
+[?2004h[32mtw@[36m~[0m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h[32mtw@[36m~[0m$ docker image ls
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h[32mtw@[36m~[0m$ exit
+[?2004lexit
+
+Script done on 2024-10-30 11:01:50+02:00 [COMMAND_EXIT_CODE="0"]
