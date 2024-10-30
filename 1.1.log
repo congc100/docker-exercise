@@ -1,0 +1,21 @@
+Script started on 2024-10-30 10:41:06+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="156" LINES="41"]
+[?2004h[32mtw@[36m~[0m$ docker run -d nginx
+[?2004l28b968a77d145da4fa48a1d6a9a0fd57753aaef510303532995e95dd27b2dc78
+[?2004h[32mtw@[36m~[0m$ docker run -d nginx
+[?2004lbcd424e00490b63aff95b2cbe1c0beefd5f11d7de6a9462c15b6570d65cc2025
+[?2004h[32mtw@[36m~[0m$ docker run -d nginx
+[?2004le810ff71c9f41f8653623b90b361d94ae2b75c2f8e9261be3fe1df3725605b4d
+[?2004h[32mtw@[36m~[0m$ docker stop bc
+[?2004lbc
+[?2004h[32mtw@[36m~[0m$ docker stop e8
+[?2004le8
+[?2004h[32mtw@[36m~[0m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS                      PORTS     NAMES
+e810ff71c9f4   nginx                      "/docker-entrypoint.…"   2 minutes ago   Exited (0) 15 seconds ago             zen_darwin
+bcd424e00490   nginx                      "/docker-entrypoint.…"   2 minutes ago   Exited (0) 25 seconds ago             trusting_perlman
+28b968a77d14   nginx                      "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes                80/tcp    peaceful_pascal
+66c25830df23   docker/welcome-to-docker   "/docker-entrypoint.…"   6 minutes ago   Exited (0) 5 minutes ago              tender_yalow
+[?2004h[32mtw@[36m~[0m$ exit
+[?2004lexit
+
+Script done on 2024-10-30 10:45:12+02:00 [COMMAND_EXIT_CODE="0"]
